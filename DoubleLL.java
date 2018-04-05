@@ -61,7 +61,6 @@ public class DoubleLL {
                     return this.head;
                 }
             }
-            //System.out.println(pointer.data);
             Node temp = pointer.next;
             Node newNode = new Node(data);
             pointer.next = newNode;
@@ -135,7 +134,6 @@ public class DoubleLL {
                     return this.head;
                 }
             }
-            //System.out.println(pointer.data);
             Node temp = pointer.next.next;
             pointer.next = temp;
             temp.previous = pointer;
@@ -151,8 +149,6 @@ public class DoubleLL {
         }
         return size;
     }
-
-
 }
 
 
